@@ -1,0 +1,39 @@
+.app-container {
+  background-color: #f1f5f9;
+  min-height: 100vh;
+  padding: 0px 500px;
+  font-family: 'Open Sans';
+}
+
+h1 {
+  color: #252627;
+  font-size: 32px;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.search-input {
+  border: 1px solid #252627;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 14px;
+  width: 250px;
+}
+
+.search-icon {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.destinations-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}

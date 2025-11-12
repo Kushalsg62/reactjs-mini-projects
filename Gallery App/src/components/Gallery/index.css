@@ -1,0 +1,39 @@
+.background {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: Roboto;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+h1 {
+  color: #1e293b;
+  font-size: 30px;
+  margin: 0px 40px;
+}
+
+p {
+  color: #64748b;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.img {
+  margin: 10px 40px;
+  width: 180vh;
+  height: 500px;
+}

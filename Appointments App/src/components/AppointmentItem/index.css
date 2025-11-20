@@ -1,0 +1,25 @@
+.Item-container {
+  border: 1px solid #b5b7c4;
+  border-radius: 20px;
+  padding: 20px 10px;
+  display: block;
+  margin: 10px;
+}
+
+.Item-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Item-heading {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.Item-star-button {
+  background-color: transparent;
+  border: 0px;
+}

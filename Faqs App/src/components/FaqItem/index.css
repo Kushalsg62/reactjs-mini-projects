@@ -1,0 +1,27 @@
+.list {
+  list-style-type: none;
+  border: 1px solid #d7dae6;
+  border-radius: 20px;
+  margin: 20px 0px;
+  padding: 20px;
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question-text {
+  color: #52606d;
+}
+
+.button {
+  background-color: transparent;
+  border: 0px;
+}
+
+.answer {
+  color: #9aa5b1;
+}

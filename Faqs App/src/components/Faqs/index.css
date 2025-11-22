@@ -1,0 +1,21 @@
+.background-container {
+  background-color: #f1f5f8;
+  background-size: cover;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 10px 50px;
+  font-family: Roboto;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 50px;
+  padding: 20px 40px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 60px;
+  color: #cb8805;
+}

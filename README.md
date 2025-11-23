@@ -1,38 +1,36 @@
-React Mini Projects Collection
+##React Mini Projects Collection
 
-This repository gathers a series of compact React projects I created while progressing through my learning journey. Each project focuses on a specific concept and serves as a practical illustration of how React behaves in real scenarios. The intent behind this collection is to demonstrate consistent growth, curiosity, and an incremental mastery of the fundamentals.
+This repository contains a curated set of small React applications I built while learning and refining my skills. Each project focuses on a specific concept and showcases how React behaves in practical scenarios. The collection reflects steady progress, curiosity and a growing command of core front-end ideas.
 
-These projects vary in complexity. Some are straightforward interfaces, while others explore more nuanced ideas like controlled components, state synchronization, event-driven updates and reusable abstractions. Together, they create a cohesive record of hands-on exploration.
+What’s Inside
 
-What You’ll Find Here
+Independent mini projects, each in its own directory
 
-Independent mini applications, each placed in its own directory
+Clean and readable code structure
 
-Clean and readable code structured for clarity
+Practical demonstrations of:
 
-Practical use of key React ideas such as:
+Component-based design
 
-Component-driven architecture
+Hooks (useState, useEffect and others)
 
-Hooks (useState, useEffect and more)
+Conditional and dynamic rendering
 
-Conditional rendering
+Form handling and controlled inputs
 
-Form handling
+Lists, keys and iterative UI building
 
-Lists, keys and dynamic rendering
+Basic state-management approaches
 
-Basic state management patterns
+Gradual improvement in logic, structure and styling
 
-Gradual evolution in design and implementation style
+Purpose
 
-Purpose of This Repository
+This repository serves as a compact portfolio of hands-on exploration. Each project is an incremental step in understanding how to design, structure and implement interactive UIs using React. It also acts as a reference point for collaborators and recruiters who want to review my coding style and problem-solving approach.
 
-The goal is to present a curated set of small but meaningful exercises that reflect consistent practice. Each project represents a step in understanding how React works behind the scenes and how to translate logic into interactive UI behavior. The collection also functions as a portfolio artifact for recruiters and collaborators who want to see my approach to problem-solving in a front-end environment.
+How to Run a Project
 
-How to Run Any Project
-
-Navigate to the desired project folder
+Open the folder of the project you want to run
 
 Install dependencies
 
@@ -43,9 +41,6 @@ Start the development server
 
 npm start
 
-
-Every project uses a simple development workflow so you can open, inspect, modify and run them without friction.
-
 Tech Stack
 
 React
@@ -53,6 +48,12 @@ React
 JavaScript (ES6+)
 
 HTML & CSS
+
+Additional libraries or utilities depending on the project
+
+Roadmap / Future Additions
+
+More mini apps will be added, especially those involving global state, API integration, architectural patterns and performance enhancements.
 
 Various utilities or libraries depending on the project
 

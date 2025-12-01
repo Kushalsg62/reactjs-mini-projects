@@ -1,0 +1,29 @@
+.events-app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.events-container {
+  background-color: #323f4b;
+  width: 50%;
+  padding: 48px;
+  overflow-y: auto;
+}
+
+.events-heading {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 48px;
+  font-family: 'Roboto';
+}
+
+.events-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}

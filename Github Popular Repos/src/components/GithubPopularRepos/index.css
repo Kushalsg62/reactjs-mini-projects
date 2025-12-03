@@ -1,0 +1,81 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.github-popular-repos-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1200px;
+  padding: 40px 20px;
+}
+
+.heading {
+  font-family: 'Lobster', cursive;
+  font-size: 48px;
+  color: #0f172a;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filters-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+  gap: 12px;
+}
+
+.repositories-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  gap: 20px;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.failure-view-image {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.failure-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #0f172a;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .heading {
+    font-size: 36px;
+  }
+
+  .failure-heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .repositories-list {
+    justify-content: flex-start;
+  }
+}

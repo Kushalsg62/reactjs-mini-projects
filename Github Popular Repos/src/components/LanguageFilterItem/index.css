@@ -1,0 +1,29 @@
+.language-btn {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0f172a;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 24px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.language-btn:hover {
+  background-color: transparent;
+}
+
+.language-btn.active {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 767px) {
+  .language-btn {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+}

@@ -1,0 +1,171 @@
+.all-products-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.all-products-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .all-products-container {
+    margin-left: 30px;
+    width: 70%;
+  }
+}
+
+.products-heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .products-heading {
+    font-size: 32px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .products-loader-container {
+    width: 70%;
+    margin-left: 30px;
+  }
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 0px;
+}
+
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .products-error-view-container {
+    margin-left: 30px;
+    width: 70%;
+  }
+}
+
+.products-failure-img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-img {
+    width: 400px;
+  }
+}
+
+.product-failure-heading-text {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-failure-heading-text {
+    font-size: 24px;
+  }
+}
+
+.products-failure-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0px;
+  max-width: 400px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .products-failure-description {
+    font-size: 16px;
+  }
+}
+
+.no-products-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-view {
+    margin-left: 30px;
+    width: 70%;
+  }
+}
+
+.no-products-img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-img {
+    width: 400px;
+  }
+}
+
+.no-products-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-heading {
+    font-size: 24px;
+  }
+}
+
+.no-products-description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .no-products-description {
+    font-size: 16px;
+  }
+}

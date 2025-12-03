@@ -1,0 +1,48 @@
+.notification-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notification-content {
+  display: flex;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+.close-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-icon {
+  width: 24px;
+  height: 24px;
+  color: #475569;
+}
+
+.close-button:hover .close-icon {
+  color: #0f172a;
+}
+
+@media screen and (max-width: 575px) {
+  .notification-container {
+    padding: 12px;
+  }
+  
+  .close-button {
+    margin-left: 8px;
+  }
+}

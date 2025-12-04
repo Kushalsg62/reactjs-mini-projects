@@ -1,0 +1,120 @@
+.team-matches-page {
+  min-height: 100vh;
+  padding: 48px 20px;
+}
+
+.loader-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.team-content {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.team-banner {
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 48px;
+}
+
+.latest-section {
+  margin-bottom: 48px;
+}
+
+.section-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 24px 0;
+  text-align: center;
+}
+
+.recent-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.recent-item {
+  display: block;
+}
+
+.empty-state {
+  color: #ffffff;
+  text-align: center;
+  padding: 80px 20px;
+  font-size: 24px;
+}
+
+/* Team Gradients */
+.gradient-rcb {
+  background: linear-gradient(to bottom, #a4261d 0%, #1e293b 100%);
+}
+
+.gradient-kkr {
+  background: linear-gradient(to bottom, #5755a7 0%, #1e293b 100%);
+}
+
+.gradient-mi {
+  background: linear-gradient(to bottom, #13418b 0%, #1e293b 100%);
+}
+
+.gradient-csk {
+  background: linear-gradient(to bottom, #f7db00 0%, #1e293b 100%);
+}
+
+.gradient-srh {
+  background: linear-gradient(to bottom, #f26d22 0%, #1e293b 100%);
+}
+
+.gradient-rr {
+  background: linear-gradient(to bottom, #da237b 0%, #1e293b 100%);
+}
+
+.gradient-kxip {
+  background: linear-gradient(to bottom, #d91c1f 0%, #1e293b 100%);
+}
+
+.gradient-dc {
+  background: linear-gradient(to bottom, #4f5db0 0%, #1e293b 100%);
+}
+
+.gradient-default {
+  background: linear-gradient(to bottom, #1e293b 0%, #0f172a 100%);
+}
+
+@media screen and (max-width: 768px) {
+  .team-matches-page {
+    padding: 32px 16px;
+  }
+
+  .team-banner {
+    max-height: 200px;
+    margin-bottom: 32px;
+  }
+
+  .latest-section {
+    margin-bottom: 32px;
+  }
+
+  .section-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .recent-list {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}

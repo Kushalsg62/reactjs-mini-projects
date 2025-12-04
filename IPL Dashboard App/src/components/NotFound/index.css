@@ -1,0 +1,80 @@
+.not-found-container {
+  min-height: 100vh;
+  background-color: #1e293b;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px 20px;
+}
+
+.not-found-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.not-found-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 32px;
+}
+
+.not-found-heading {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.not-found-description {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 0 0 32px 0;
+  line-height: 1.5;
+}
+
+.home-button {
+  display: inline-block;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #4338ca;
+}
+
+@media screen and (max-width: 768px) {
+  .not-found-container {
+    padding: 32px 16px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+
+  .not-found-logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 24px;
+  }
+
+  .not-found-heading {
+    font-size: 32px;
+    margin-bottom: 12px;
+  }
+
+  .not-found-description {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  .home-button {
+    font-size: 16px;
+    padding: 10px 24px;
+  }
+}

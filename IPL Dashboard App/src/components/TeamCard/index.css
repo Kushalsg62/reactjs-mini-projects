@@ -1,0 +1,48 @@
+.team-card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  min-height: 110px;
+  transition: all 0.3s ease;
+}
+
+.team-card:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.team-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.team-name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .team-card {
+    padding: 20px;
+    gap: 20px;
+    min-height: 100px;
+  }
+
+  .team-logo {
+    width: 56px;
+    height: 56px;
+  }
+
+  .team-name {
+    font-size: 18px;
+  }
+}

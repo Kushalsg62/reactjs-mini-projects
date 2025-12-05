@@ -1,0 +1,50 @@
+.timeline-main-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  font-family: 'Roboto', sans-serif;
+}
+
+.heading-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.journey-text {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  line-height: 1.2;
+}
+
+.journey-text span {
+  color: #0967d2;
+}
+
+.chrono-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.chrono-icons {
+  background-color: #0967d2;
+}
+
+.chrono-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0967d2;
+}
+
+@media screen and (max-width: 768px) {
+  .journey-text {
+    font-size: 1.5rem;
+  }
+
+  .timeline-main-container {
+    padding: 15px;
+  }
+}

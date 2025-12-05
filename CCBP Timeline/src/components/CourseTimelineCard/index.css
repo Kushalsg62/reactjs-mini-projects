@@ -1,0 +1,57 @@
+.course-card-container {
+  border-radius: 20px;
+  font-family: Roboto;
+}
+
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.course-title {
+  color: #171f46;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.duration-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #171f46;
+}
+
+.duration-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #171f46;
+}
+
+.course-description {
+  color: #1e293b;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background-color: gainsboro;
+  color: #1e293b;
+  padding: 6px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}

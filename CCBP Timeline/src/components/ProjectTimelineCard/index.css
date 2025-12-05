@@ -1,0 +1,61 @@
+.project-card-container {
+  border-radius: 8px;
+  padding: 24px;
+  font-family: Roboto;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.project-title {
+  color: #171f46;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 12px 0;
+}
+
+.duration-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.icon {
+  font-size: 20px;
+  color: #171f46;
+}
+
+.duration-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #171f46;
+}
+
+.project-description {
+  color: #1e293b;
+  line-height: 1.6;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.visit-link {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.visit-link:hover {
+  text-decoration: underline;
+}

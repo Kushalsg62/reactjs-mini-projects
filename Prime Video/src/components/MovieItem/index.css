@@ -1,0 +1,125 @@
+/* src/components/PrimeVideo/index.css */
+
+.prime-video-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 30px 50px;
+}
+
+.prime-video-logo {
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+.movies-container {
+  padding: 20px 0;
+}
+
+.movies-heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.movies-slider {
+  margin-bottom: 40px;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+}
+
+.slick-prev {
+  left: -60px;
+}
+
+.slick-next {
+  right: -60px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 50px;
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 1200px) {
+  .prime-video-container {
+    padding: 20px 30px;
+  }
+
+  .slick-prev {
+    left: -40px;
+  }
+
+  .slick-next {
+    right: -40px;
+  }
+}
+
+/* src/components/MovieItem/index.css */
+
+.movie-item-container {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.thumbnail-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.thumbnail-image:hover {
+  transform: scale(1.05);
+}
+
+.popup-content {
+  width: 80%;
+  max-width: 900px;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.modal-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-button:hover {
+  opacity: 0.7;
+}
+
+.player-container {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.player-container > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

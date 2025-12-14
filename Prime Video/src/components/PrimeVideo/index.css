@@ -1,0 +1,61 @@
+.prime-video-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding: 30px 50px;
+}
+
+.prime-video-logo {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.movies-container {
+  padding: 20px 0;
+}
+
+.movies-heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  margin-top: 40px;
+}
+
+.movies-slider {
+  margin-bottom: 40px;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+}
+
+.slick-prev {
+  left: -60px;
+}
+
+.slick-next {
+  right: -60px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 50px;
+  opacity: 0.75;
+}
+
+@media screen and (max-width: 1200px) {
+  .prime-video-container {
+    padding: 20px 30px;
+  }
+
+  .slick-prev {
+    left: -40px;
+  }
+
+  .slick-next {
+    right: -40px;
+  }
+}

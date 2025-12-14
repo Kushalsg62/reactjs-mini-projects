@@ -1,0 +1,41 @@
+.thumbnail-item {
+  list-style-type: none;
+}
+
+.thumbnail-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  transition:
+    transform 0.2s ease-in-out,
+    opacity 0.2s ease-in-out;
+}
+
+.thumbnail-button:hover {
+  transform: scale(1.08);
+  opacity: 0.9;
+}
+
+.thumbnail-image {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .thumbnail-image {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .thumbnail-image {
+    width: 110px;
+    height: 110px;
+  }
+}

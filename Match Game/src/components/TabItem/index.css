@@ -1,0 +1,33 @@
+.tab-item {
+  list-style-type: none;
+}
+
+.tab-button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  padding: 12px 30px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+  opacity: 0.8;
+}
+
+.active-tab-btn {
+  border-bottom: 3px solid #fec653;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .tab-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
